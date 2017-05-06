@@ -55,6 +55,8 @@ class Race(models.Model):
     name_horse_19 = models.CharField(max_length=200, default="None")
     name_horse_20 = models.CharField(max_length=200, default="None")
 
+    # TODO: add year field
+
     class Meta:
         ordering = ['race_name']
 
