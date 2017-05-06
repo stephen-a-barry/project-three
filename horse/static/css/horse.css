@@ -1,3 +1,12 @@
 body {
   background-color: #ddd;
 }
+.main {
+  border: 1px solid #000;
+  height: 400px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

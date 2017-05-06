@@ -2,6 +2,20 @@
 
 {% block content %}
 
-<h1>Hello Horses</h1>
+<section>
+  <div class="main container">
+    <div class="flex-center row">
+      {% for race in races %}
+        <h1>{{ race.race_name }}</h1>
+      {% endfor %}
+    </div>
+    <div class="flex-center row">
+      
+    </div>
+    <div class="flex-center row">
+
+    </div>
+  </div>
+</section>
 
 {% endblock %}
